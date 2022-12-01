@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advent_of_code"
+version = "0.1.0"
+description = ""
+authors = ["Nikolay Valchev <niki@st6.io>"]
+readme = "README.md"
+packages = [{include = "advent_of_code", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.scripts]
+code_challenge = "advent_of_code.code_challenge:run"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
