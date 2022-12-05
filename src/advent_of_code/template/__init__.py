@@ -1,5 +1,5 @@
 def parse_input(input):
-    return [line.rstrip() for line in input.readlines()]
+    return input
 
 
 def run(file):
@@ -8,8 +8,14 @@ def run(file):
     part_1(data)
     part_2(data)
 
+
 def part_1(data):
-    print(f'Part_1: {data}')
+
+    result = None
+    print("Part_1", result)
+
 
 def part_2(data):
-    print(f'Part_2: {data}')
+
+    result = None
+    print("Part_2", result)
